@@ -105,6 +105,8 @@ if (isset($_POST['doit'])) {
 </head>
 <body>
  
+<h1>More information about the implementation of this application can be found <a href='http://www.cs264.org/2009/projects/web/Patel_Krunal/' target="_blank">here</a>.</h1>
+
 <form action="index.php" method="post">
 <input type="hidden" name="doit" value="doit">
 
