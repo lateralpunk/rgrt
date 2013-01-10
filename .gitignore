@@ -1,0 +1,5 @@
+bin/
+www/images/
+cuda/*.o
+cuda/rgrt-cuda
+*~

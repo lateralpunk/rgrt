@@ -140,3 +140,4 @@ rgrt-cuda: main.o bmploader.o plyfile.o
 
 clean:
 	@rm -f main.o bmploader.o plyfile.o rgrt-cuda ../bin/$(OSLOWER)/$(TARGET)
+	@rm -f /rgrt/www/images/*.bmp
