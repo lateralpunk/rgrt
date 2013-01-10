@@ -1,7 +1,9 @@
-cscie175
+RGRT
 ========
 
-This project demonstrates a CUDA based ray tracer using a regular grid acceleration scheme.  Timings and error checking are provided for both the CPU & GPU implementations.  There are 9 build files provided which highlight the different aspects of the ray tracer.  The files are regular C++ code located in the build directory.  Since we demonstrate loading of mesh data stored in PLY files, the relevant models are located in the models directory. It is important to run the application from the root directory where the executable is placed in order for the software to find the models.  So always run from the root directory (rgrt-cuda). We also support rendering of rectangles and spheres.  
+Update: This project has been integrated with AWS EC2.  
+
+This project demonstrates a CUDA based ray tracer using a regular grid acceleration scheme.  Timings (actually commented out since using CUDA 5 SDK, feel free to bring it back) and error checking are provided for both the CPU & GPU implementations.  There are 9 build files provided which highlight the different aspects of the ray tracer.  The files are regular C++ code located in the build directory.  Since we demonstrate loading of mesh data stored in PLY files, the relevant models are located in the models directory. It is important to run the application from the root directory where the executable is placed in order for the software to find the models.  So always run from the root directory (ie. bin/darwin/release/rgrt-cuda -b=build01 -g=0). 
 
 Here are some useful commands:
 
