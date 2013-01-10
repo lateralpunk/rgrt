@@ -294,6 +294,9 @@ bool World::processArgs(int argc, char **argv)
 		ropt.camera_ptr.zoom = zoom;
 	}
 	
+	if (ropt.camera_ptr.zoom == 0.0f)
+		ropt.camera_ptr.zoom = 1.0f;
+	
 	if (checkCmdLineFlag( argc, (const char **)argv, "m"))
 	{
 		mode = getCmdLineArgumentInt(argc,(const char**)argv,"m");
